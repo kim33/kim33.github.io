@@ -3,79 +3,176 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name — Home</title>
+  <title>Kyuri Im</title>
+  <meta
+    name="description"
+    content="Kyuri Im — AI engineer specializing in LLM systems and NLP."
+  />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header class="nav">
-    <div class="brand">Your Name</div>
+    <div class="brand">Kyuri Im</div>
     <nav>
       <a href="#projects">Projects</a>
-      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main class="wrap">
     <section class="hero">
-      <div class="badge">✨ GitHub Pages</div>
-      <h1>Building cool things on the internet.</h1>
-      <p class="lead">
-        A clean, modern site you can edit in minutes. Add your projects, research, writing, or whatever you’re making.
-      </p>
-      <div class="cta">
-        <a class="btn primary" href="#projects">See my work</a>
-        <a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      <div class="hero-content">
+        <img src="images/profile.jpg" alt="Kyuri Im" class="profile-pic" />
+
+        <div>
+          <h1>Kyuri Im</h1>
+
+          <p class="lead">
+            <p class="lead">
+              AI engineer specializing in LLM systems and NLP, recently graduated and seeking full-time opportunities.
+            </p>
+          </p>
+
+          <p class="text">
+            I recently completed my master’s degree in Computational Modeling and Simulation at TU Dresden, where I focused on NLP and LLM-based systems. My work centers on understanding model behavior, improving reliability, and making complex information more accessible.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="YOUR_RESUME_FILE.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a class="btn" href="https://github.com/kim33" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/kim33/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="projects" class="section">
-      <h2>Projects</h2>
+      <h2>Selected Work</h2>
+
       <div class="grid">
         <article class="card">
-          <h3>Project One</h3>
-          <p>Short description of what it does and why it’s interesting.</p>
-          <a href="#" class="link">Read more →</a>
+          <h3>LLM Safety & Bias Evaluation</h3>
+          <p>
+            Built an evaluation framework to analyze false refusals and bias in LLMs across linguistic and demographic contexts, including large-scale annotation, benchmarking, and failure mode analysis.
+          </p>
+          <a href="https://arxiv.org/pdf/2601.08668" class="link" target="_blank">Paper →</a>
         </article>
 
         <article class="card">
-          <h3>Project Two</h3>
-          <p>Short description. Add screenshots later for extra wow.</p>
-          <a href="#" class="link">Read more →</a>
+          <h3>Klartext / SimplifyMyText</h3>
+          <p>
+            Developed an LLM-based system for converting complex content into plain language. Evaluated outputs across BLEU, SARI, and readability metrics, and compared model behavior across GPT-4o and Llama.
+          </p>
+          <a href="https://simplifymytext.org" class="link" target="_blank">Live →</a>
+          <a href="https://arxiv.org/pdf/2504.14223" class="link" target="_blank">Paper →</a>
+          <a href="https://github.com/grussdorian/klartext" class="link" target="_blank" rel="noreferrer">GitHub →</a>
         </article>
 
         <article class="card">
-          <h3>Project Three</h3>
-          <p>Something you’re proud of. Even small projects count.</p>
-          <a href="#" class="link">Read more →</a>
+          <h3>RoBERTuna — Emotion Detection</h3>
+          <p>
+            Built a multi-label emotion classification model using RoBERTa with k-fold cross-validation and Optuna hyperparameter optimization. Analyzed model behavior with confusion matrices and SHAP.
+          </p>
+          <a href="https://github.com/kim33/LLMProject_SemEval/blob/main/SemEval2025_Kyuri_Im_Lyoungah_Kim_final.pdf"
+             class="link" target="_blank">Paper →</a>
+          <a href="https://github.com/kim33/LLMProject_SemEval"
+             class="link" target="_blank">GitHub →</a>
+        </article>
+
+        <article class="card">
+          <h3>Human-in-the-loop Text Simplification Study</h3>
+          <p>
+            Designed and conducted a user study to generate gold-standard references for scientific text simplification, analyzing trade-offs in readability, accuracy, and consistency across prompting strategies.
+          </p>
+          <a href="Kyuri_Im_Text Simplification Reference Data Research Report.pdf"
+             class="link" target="_blank">Paper →</a>
         </article>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p class="text">
-        Write a few lines about who you are and what you’re into. Keep it human.
-        You can add a photo later, a timeline, or links to papers/posts.
-      </p>
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Graduate Research Assistant — ScaDS.AI</h3>
+          <p>
+            Worked on LLM-based systems for scientific text simplification and NLP research. Developed and evaluated models across GPT-4, LLaMA, and BERT, and built structured datasets for large-scale experimentation.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Account Technology Specialist — NetApp</h3>
+          <p>
+            Built and deployed production-grade data pipelines and infrastructure systems for enterprise analytics and ML workloads, with a focus on reliability, scalability, and automation using Python and Azure.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Software Developer — LG Electronics</h3>
+          <p>
+            Developed embedded systems and simulation tools under strict performance constraints, and built testing and validation pipelines to improve system reliability and coverage.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Technische Universität Dresden</h3>
+          <p>M.S. in Computational Modeling and Simulation</p>
+          <p class="text">
+            Research focus: NLP, LLM systems, model behavior, and text simplification.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Georgia Institute of Technology</h3>
+          <p>B.S. in Computer Science</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification</h3>
+          <p>ECIR 2025</p>
+          <a href="https://arxiv.org/pdf/2504.14223" class="link" target="_blank">Paper →</a>
+        </article>
+      </div>
     </section>
 
     <section id="contact" class="section">
       <h2>Contact</h2>
       <p class="text">
-        Email: <a class="link" href="mailto:you@example.com">you@example.com</a><br/>
-        LinkedIn: <a class="link" href="#">your-link</a>
+        Email:
+        <a class="link" href="mailto:kyuri9295@gmail.com">kyuri9295@gmail.com</a>
+      </p>
+      <p class="text">
+        LinkedIn:
+        <a class="link" href="https://www.linkedin.com/in/kim33/" target="_blank" rel="noreferrer">linkedin.com/in/kim33</a>
+      </p>
+      <p class="text">
+        GitHub:
+        <a class="link" href="https://github.com/kim33" target="_blank" rel="noreferrer">github.com/kim33</a>
       </p>
     </section>
 
     <footer class="footer">
-      <span>© <span id="year"></span> Your Name</span>
-      <span class="dot">•</span>
-      <a class="link" href="#">Privacy</a>
+      <span>© <span id="year"></span> Kyuri Im</span>
     </footer>
   </main>
 
